@@ -1,6 +1,9 @@
 A website for Pho Mekong, a vietnamese restaurant located in Barrie, Ontario.
 ------
 
+## Figma Design
+https://www.figma.com/file/dtEi3Y26DZR5722c6IwVc7/Pho-Restaurant?node-id=0%3A1
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
