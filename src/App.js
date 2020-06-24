@@ -1,6 +1,6 @@
 import React from 'react';
-import Nav from './Nav/Nav';
-import Landing from './LandingPage/Landing';
+import Nav from './Nav/Nav.js';
+import Landing from './LandingPage/Landing.js';
 
 function App() {
 	return (
