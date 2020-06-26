@@ -1,25 +1,28 @@
 import React from 'react';
 import {
   Card, CardImg, CardText, CardBody, CardLink,
-  CardTitle, CardSubtitle
+  CardTitle, CardSubtitle, Button, ButtonGroup
 } from 'reactstrap';
 
 const MenuItem = (props) => {
   return (
-    <div>
-      <Card>
+      <Card style={{width: '20%'}}>
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardTitle>P10. Pho Mekong</CardTitle>
         </CardBody>
-        <img width="100%" src="/assets/318x180.svg" alt="Card image cap" />
+        <section id="P10" style={{display: 'flex', justifyContent: 'center'}}>
+          <img width="90%" src="https://www.fodmapeveryday.com/wp-content/uploads/2017/06/Pho-closeup-copy-855x570.jpg" alt="Card image cap" /> 
+        </section>
         <CardBody>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <CardLink href="#">Card Link</CardLink>
-          <CardLink href="#">Another Link</CardLink>
+          <CardText>Pho with assorted beef, rare, well done, beef balls, and assorted vegatables.</CardText>
+          <ButtonGroup style={{marginBottom: '1em'}}>
+            <Button>Medium</Button>
+            <Button>Large</Button>
+            <Button>X-Large</Button>
+          </ButtonGroup>
+          <Button color="primary">Add to Order</Button>{' '}
         </CardBody>
       </Card>
-    </div>
   );
 };
 
