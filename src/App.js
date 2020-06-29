@@ -4,11 +4,25 @@ import Landing from './LandingPage/Landing.js';
 import MenuItem from './MenuItem/MenuItem.js';
 
 function App() {
+
+
 	return (
 		<div className="App">
 			<Nav />
 			{/* <Landing /> */}
-			<MenuItem />
+				<section style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'space-between'}}>
+					<MenuItem />
+					<MenuItem />
+					<MenuItem />
+					<MenuItem />
+
+
+				</section>
+
+		
+
+
+	
 		</div>
 	);
 }

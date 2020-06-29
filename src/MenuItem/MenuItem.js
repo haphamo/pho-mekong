@@ -6,7 +6,7 @@ import {
 
 const MenuItem = (props) => {
   return (
-      <Card style={{width: '20%'}}>
+      <Card style={{width: '30%', margin: '1em'}}>
         <CardBody>
           <CardTitle>P10. Pho Mekong</CardTitle>
         </CardBody>
@@ -15,12 +15,12 @@ const MenuItem = (props) => {
         </section>
         <CardBody>
           <CardText>Pho with assorted beef, rare, well done, beef balls, and assorted vegatables.</CardText>
-          <ButtonGroup style={{marginBottom: '1em'}}>
+          <ButtonGroup >
             <Button>Medium</Button>
             <Button>Large</Button>
             <Button>X-Large</Button>
           </ButtonGroup>
-          <Button color="primary">Add to Order</Button>{' '}
+          {/* <Button color="primary">Add to Order</Button>{' '} */}
         </CardBody>
       </Card>
   );
