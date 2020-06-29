@@ -15,8 +15,6 @@ function App() {
 					<MenuItem />
 					<MenuItem />
 					<MenuItem />
-
-
 				</section>
 
 		
