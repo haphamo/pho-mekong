@@ -15,7 +15,7 @@ const MenuItem = (props) => {
         </section>
         <CardBody>
           <CardText>Pho with assorted beef, rare, well done, beef balls, and assorted vegatables.</CardText>
-          <ButtonGroup >
+          <ButtonGroup style={{display: 'flex'}}>
             <Button>Medium</Button>
             <Button>Large</Button>
             <Button>X-Large</Button>
