@@ -5,7 +5,8 @@ import { ListGroup, ListGroupItem } from 'reactstrap';
 const MenuItem = ({item}) => {
 
   const { code, name, price, desc, subOptions } = item;
-
+ 
+  
   const getAllSubOptions = (allOptions) => {
     return allOptions.map(option => {
       return(
@@ -13,6 +14,7 @@ const MenuItem = ({item}) => {
       )
     })
   }
+  
 
   return(
     <ListGroupItem >
