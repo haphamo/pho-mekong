@@ -5,19 +5,17 @@ import { ListGroup, ListGroupItem } from 'reactstrap';
 const MenuItem = ({item}) => {
 
   const { code, name, price, desc, subOptions } = item;
- 
-  
+
   const getAllSubOptions = (allOptions) => {
     return allOptions.map(option => {
       return(
         <li>{option}</li>
       )
     })
-  }
+  };
   
-
   return(
-    <ListGroupItem >
+    <ListGroupItem key={code}>
       <section className='main' style={{display: 'flex', justifyContent: 'space-between'}}> 
         <section className='item'>{code}. {name}</section>
         <section className='price'>{price/100}</section>
