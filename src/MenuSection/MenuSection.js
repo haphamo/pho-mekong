@@ -2,7 +2,7 @@ import React from 'react';
 import { ListGroup, ListGroupItem } from 'reactstrap';
 import MenuItem from '../MenuItem/MenuItem.js';
 
-const fixture2 = [
+const fixture = [
   {
     header: 'Appetizers',
     list: [
@@ -18,6 +18,19 @@ const fixture2 = [
     ]
   },
   {
+    header: 'Soups',
+    desc: 'These are appetizer soups, there are no noodles. All soup bases are bone bone based. We do not have vegetarian broth.',
+    list: [
+      {code: 'A10', name: 'Vegetable soup', price: 595},
+      {code: 'A11S', name: 'Wonton (shrimp & pork filling) Soup - Small', price: 695},
+      {code: 'A11L', name: 'Wonton (shrimp & pork filling) Soup - Large', price: 695},
+      {code: 'A12A', name: 'Tom Yum Soup - Chicken', price: 695},
+      {code: 'A12B', name: 'Tom Yum Soup - Vegetables', price: 595},
+      {code: 'A12C', name: 'Tom Yum Soup - Seafood', price: 795},
+      {code: 'A12D', name: 'Tom Yum Soup - Beef', price: 695},
+    ]
+  },
+  {
     header: 'Salads',
     desc: 'Julienned mangoes, cucumber, carrots and bell peppers, topped with mint, fish sauce and peanuts.',
     list: [
@@ -26,10 +39,11 @@ const fixture2 = [
     ]
   }
 ]
-// retreives all menu items from a category
-// using fixture data above temp. ToDO upload to server
+
+// TODO: install uuid for unique key
+// retreives all menu items from a category, props
 const MenuSection = () => {
-  const { header, list } = fixture2[0];
+  const { header, list } = fixture[1];
 
   const allCategoryItems = list.map(item => {
     return(
@@ -39,7 +53,7 @@ const MenuSection = () => {
 
   return(
     <ListGroup style={{width: '50%'}}>
-      <h5>{fixture2[0].header}</h5>
+      <h5>{header}</h5>
         {allCategoryItems}
     </ListGroup>
   )
