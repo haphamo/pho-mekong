@@ -33,7 +33,112 @@ const data = [
       {code: 'G1', name: 'Mango Salad', price: 745},
       {code: 'G2', name: 'Shrimp Mango Salad', price: 995}
     ]
-  }
+  },
+  {
+    header: 'Pho',
+    desc: 'Pho is a popular Vietnamese noodle soup. Beef bones are simmered for many hours in combination with herbs and spices that help to bring out the flavour. It is served with traditional rice noodles and your choice of meat, or vegetables. Topped with green and white onions and black pepper.',
+    list: [
+      {code: 'P0', name: 'Plain (only noodles)', price: 700},
+      {code: 'P1', name: 'Rare beef', price: 700},
+      {code: 'P2', name: 'Rare beef with beef ball', price: 700},
+      {code: 'P3', name: 'Rare beef with beef ball and well-done beef', price: 700},
+      {code: 'P4', name: 'Well-done beef', price: 700},
+      {code: 'P5', name: 'Well-done beef with beef-ball', price: 700},
+      {code: 'P6', name: 'Beef ball', price: 700},
+      {code: 'P7', name: 'Chicken', price: 700},
+      {code: 'P8', name: 'Vegetables', price: 700},
+      {code: 'P9', name: 'Vegetables', price: 700},
+      {code: 'P10', name: 'House Special (Assorted beef, with vegetables and shrimp)', price: 700},
+      {code: 'P11', name: 'Shrimp', price: 700},
+      
+    ]
+  },
+  {
+    header: 'Noodle Soups',
+    list: [
+      {code: 'H1', name: 'Spicy Huế beef vermicelli soup (Bún bò Huế)', price: 1145},
+      {code: 'H3', name: 'Wonton and pork egg noodle soup', price: 1145},
+      {code: 'H4', name: 'Wonton and pork rice noodle soup', price: 1145},
+      {code: 'H5', name: 'Seafood egg noodle soup', price: 1145},
+      {code: 'H6', name: 'Seafood rice noodle soup', price: 1145},
+      {code: 'H7', name: 'Special egg noodle soup (shrimp, wontons, chicken and pork)', price: 1145},
+    ]
+  },
+  {
+    header: 'Steamed Rice Dishes',
+    list: [
+      {code: 'R1', name: 'Rice with grilled lemongrass porkchop', price: 1145},
+      {code: 'R2', name: 'Rice with grilled lemongrass chicken', price: 1145},
+      {code: 'R3', name: 'Rice with grilled beef', price: 1145},
+      {code: 'R4', name: 'Rice with grilled lemongrass chicken & porkchop', price: 1345},
+      {code: 'R5', name: 'Stir fry chicken with satay', price: 1195},
+      {code: 'R6', name: 'Stir fry beef with satay', price: 1195},
+      {code: 'R6', name: 'Stir fry chicken with cashews', price: 1195},
+      {code: 'R6', name: 'Stir fry shrimp with cashews', price: 1495},
+      {code: 'R6', name: 'Combination Stir fry (shrimp, beef, chicken, pork)', price: 1495},
+
+    ]
+  },
+  {
+    header: 'Fried Rice Dishes',
+    desc: 'All fried rice dishes contain egg, carrots, peas and onions.',
+    list: [
+      {code: 'F1', name: 'Fried rice with grilled lemongrass porkchop', price: 1295},
+      {code: 'F2', name: 'Fried rice with grilled lemongrass chicken', price: 1295},
+      {code: 'F3', name: 'Fried rice with grilled beef chicken', price: 1295},
+      {code: 'F4', name: 'Fried rice with vegetables', price: 1245},
+      {code: 'F5', name: 'Fried rice with minced BBQ pork', price: 1295},
+      {code: 'F6', name: 'Fried rice with minced shrimp', price: 1495},
+      {code: 'F7', name: 'Special Mekong Fried rice (minced pork, chicken & shrimp)', price: 1495},
+      {code: 'F8', name: 'Fried rice with grilled lemongrass chicken and porkchop', price: 1495},
+    ] 
+  },
+  {
+    header: 'Vermicelli',
+    desc: 'All vermicelli dishes are served with a fish sauce dressing.',
+    list: [
+      {code: 'V1', name: 'Vermicelli with tofu and vegetarian crispy rolls', price: 1095},
+      {code: 'V2A', name: 'Vermicelli with spring roll and grilled pork', price: 1195},
+      {code: 'V2B', name: 'Vermicelli with spring roll and grilled beef', price: 1195},
+      {code: 'V2C', name: 'Vermicelli with spring roll and grilled chicken', price: 1195},
+      {code: 'V3A', name: 'Vermicelli with spring roll, marianated minced pork and grilled pork', price: 1295},
+      {code: 'V3B', name: 'Vermicelli with spring roll, marianated minced pork and grilled beef', price: 1295},
+      {code: 'V3C', name: 'Vermicelli with spring roll, marianated minced pork and grilled chicken', price: 1295},
+      {code: 'V4A', name: 'Vermicelli with spring roll and satay chicken', price: 1295},
+      {code: 'V4B', name: 'Vermicelli with spring roll and satay beef', price: 1295},
+    ]
+  },
+  {
+    header: 'Congee',
+    list: [
+      {code: 'C1', name: 'Chicken congee', price: 895},
+      {code: 'C2', name: 'Pork congee', price: 895},
+      {code: 'C3', name: 'Shrimp congee', price: 995},
+      {code: 'C4', name: 'Assorted (pork, beef, shrimp, chicken) congee', price: 995},
+      {code: 'C5', name: 'Seafood (imitation crab, fish balls, scallop, mussell, shrimp) congee', price: 995},
+    ]
+  },
+  {
+    header: 'Pad Thai',
+    desc: 'All pad thai dishes contain onions, egg, beansprouts, cabbage and tofu. The home made pad thai sauce contains dairy and shellfish ingredients and peanut butter. Please choose between MILD, MEDIUM, or SPICY',
+    list: [
+      {code: 'T1', name: 'Vegetable Pad Thai', price: 1095},
+      {code: 'T2', name: 'Chicken Pad Thai', price: 1195},
+      {code: 'T3', name: 'Beef Pad Thai', price: 1195},
+      {code: 'T4', name: 'Shrimp Pad Thai', price: 1395},
+    ]
+  },
+  {
+    header: 'Spicy Tom Yum Noodle Soup',
+    desc: 'All tom yum noodle soups come with rice noodles and vegetables',
+    list: [
+      {code: 'T5', name: 'Vegetable Tom Yum Noodle Soup', price: 1095},
+      {code: 'T6', name: 'Chicken Tom Yum Noodle Soup', price: 1195},
+      {code: 'T7', name: 'Beef Tom Yum Noodle Soup', price: 1195},
+      {code: 'T8', name: 'Shrimp Tom Yum Noodle Soup', price: 1395},
+    ]
+  },
+
 ];
 
 export default data
