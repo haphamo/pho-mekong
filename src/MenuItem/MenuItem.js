@@ -19,7 +19,7 @@ const MenuItem = ({item}) => {
     <ListGroupItem key={code}>
       <section className='main' style={{display: 'flex', justifyContent: 'space-between'}}> 
         <section className='item'>{code}. {name}</section>
-        <section className='price'>{price/100}</section>
+        <section className='price'>{(price/100).toFixed(2)}</section>
       </section>
       {desc && <article className='description'>{desc}</article>}
       {subOptions &&         
