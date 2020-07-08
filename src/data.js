@@ -3,7 +3,7 @@ const data = [
     header: 'Appetizers',
     list: [
       {code: 'A1', name: 'Crispy Spring Rolls', price: 495},
-      {code: 'A2', name: 'Veggie Crispy Spring Rolls', price: 495},
+      {code: 'A2', name: 'Vegetarian Crispy Spring Rolls', price: 495},
       {code: 'A3', name: 'Shrimp Chips', price: 395},
       {code: 'A4', name: 'Crispy Fried Wontons', price: 495},
       {code: 'A5', name: 'Fresh Salad Rolls', price: 495, desc: 'Rice paper rolls served with fine vermicelli noodles, lettuce, cucumber, and served with sweet home-made sauce. Rolled with one of the options below. If you prefer a fish sauce as dip, let us know.', subOptions: ['A. Shrimp & Pork', 'B. Grilled Beef', 'C. Grilled Chicken', 'D. Vegetables']},
@@ -138,7 +138,48 @@ const data = [
       {code: 'T8', name: 'Shrimp Tom Yum Noodle Soup', price: 1395},
     ]
   },
-
+  {
+    header: 'Stir-fry Noodles',
+    desc: 'An egg noodle stir-fry dish, choose between SOFT or CRISPY noodles. All stir-fry dishes contain onions, cabbage and carrots.',
+    list: [
+      {code: 'M1', name: 'Vegetable Stir-fry', price: 1145},
+      {code: 'M2', name: 'Chicken Stir-fry', price: 1145},
+      {code: 'M3', name: 'Beef Stir-fry', price: 1145},
+      {code: 'M4', name: 'Chicken satay Stir-fry', price: 1145},
+      {code: 'M5', name: 'Beef satay Stir-fry', price: 1145},
+      {code: 'M6', name: 'Shrimp Stir-fry', price: 1145},
+      {code: 'M7', name: 'Shrimp satay Stir-fry', price: 1145},
+      {code: 'M8', name: 'Seafood Stir-fry', price: 1145},
+      {code: 'M8', name: 'Combination (shrimp, pork, beef) Stir-fry', price: 1145},
+    ]
+  },
+  {
+    header: 'Curry',
+    desc: 'All curries come with a side of steamed rice. The broth used in our curries are not vegetarian.',
+    list: [
+      {code: 'T9', name: 'Yellow chicken curry', price: 1245},
+      {code: 'T10', name: 'Yellow shrimp curry', price: 1445},
+      {code: 'T11A', name: 'Red chicken curry', price: 1245},
+      {code: 'T11B', name: 'Red beef curry', price: 1245},
+      {code: 'T11C', name: 'Red shrimp curry', price: 1445},
+      {code: 'T12', name: 'Yellow curry with vegetables', price: 1145},
+    ]
+  },
+  {
+    header: 'Signature Dishes',
+    list: [
+      {code: 'S3A', name: 'Grilled lemongrass chicken (3)', price: 1595},
+      {code: 'S3B', name: 'Grilled lemongrass porkchop (3)', price: 1595},
+      {code: 'S4', name: 'Stir-fry vegetables with a side of steamed rice', price: 1095},
+      {code: 'S5', name: 'Stir-fry beef and broccoli with a side of steamed rice', price: 1395},
+      {code: 'S6A', name: 'Spicy satay stir-fry chicken with steamed rice', price: 1395},
+      {code: 'S6B', name: 'Spicy satay stir-fry beef with steamed rice', price: 1395},
+      {code: 'S7A', name: 'Stir fry ginger chicken with steamed rice', price: 1395},
+      {code: 'S7B', name: 'Stir fry ginger beef with steamed rice', price: 1395},
+      {code: 'S8A', name: 'Stir fry ginger shrimp with steamed rice', price: 1395},
+      {code: 'S8B', name: 'Spicy satsy stir fry ginger shrimp with steamed rice', price: 1395},
+    ]
+  }
 ];
 
 export default data
