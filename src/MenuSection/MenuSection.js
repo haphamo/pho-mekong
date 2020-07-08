@@ -14,7 +14,7 @@ const MenuSection = (props) => {
   });
 
   return(
-    <ListGroup style={{width: '50%'}}>
+    <ListGroup>
       <h5 style={{padding: '1em 1em 0em 1em'}}>{header}</h5>
       <p style={{padding: '0em 1em 0em 1em'}}>{desc}</p>
         {allCategoryItems}
