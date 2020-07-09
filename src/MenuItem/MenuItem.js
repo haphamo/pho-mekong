@@ -2,9 +2,9 @@ import React from 'react';
 import { ListGroup, ListGroupItem } from 'reactstrap';
 
 
-const MenuItem = ({item}) => {
+const MenuItem = (props) => {
 
-  const { code, name, price, desc, subOptions } = item;
+  const { code, name, price, desc, subOptions } = props.item;
 
   // If the item has sub options. Fresh salad rolls(A5) has 4 types
   const getAllSubOptions = (allOptions) => {
@@ -19,11 +19,11 @@ const MenuItem = ({item}) => {
     <ListGroupItem key={code}>
       <section className='main' style={{display: 'flex', justifyContent: 'space-between'}}> 
         <section className='item'>{code}. {name}</section>
-        <section className='price'>{(price/100).toFixed(2)}</section>
+        {props.header !== 'Pho' && <section className='price'>{(price/100).toFixed(2)}</section>}
       </section>
       {desc && <article className='description'>{desc}</article>}
       {subOptions &&         
-        <ul>
+        <ul style={{padding: 'initial', display: 'flex', listStyle: 'none', justifyContent: 'space-between'}}>
           {getAllSubOptions(subOptions)}
         </ul>}
     </ListGroupItem>
