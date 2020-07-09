@@ -48,8 +48,8 @@ const data = [
       {code: 'P7', name: 'Chicken', subOptions: ['M: 9.95', 'L: 10.95', 'XL: 11.95']},
       {code: 'P8', name: 'Vegetables', subOptions: ['M: 9.95', 'L: 10.95', 'XL: 11.95']},
       {code: 'P9', name: 'Vegetables', subOptions: ['M: 9.95', 'L: 10.95', 'XL: 11.95']},
-      {code: 'P10', name: 'House Special (Assorted beef, with vegetables and shrimp)', price: 700},
-      {code: 'P11', name: 'Shrimp', price: 700},
+      {code: 'P10', name: 'House Special', desc: '(Assorted beef, with vegetables and shrimp)', subOptions: ['M: 10.95', 'L: 12.95', 'XL: 12.95']},
+      {code: 'P11', name: 'Shrimp', subOptions: ['M: 10.95', 'L: 12.95', 'XL: 12.95']},
       
     ]
   },
