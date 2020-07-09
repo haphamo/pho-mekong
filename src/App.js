@@ -13,7 +13,8 @@ function App() {
 	return (
 		<div className="App">
 			{/* <Landing /> */}
-			<section className="all-menu-items" style={{ width: '55%' }}>
+			<NavFullMenu />
+			<section className="pusher" style={{width: '70%'}}>
 				{allMenuItems}
 			</section>
 		</div>
