@@ -9,7 +9,7 @@ const MenuSection = (props) => {
 
   const allCategoryItems = list.map(item => {
     return(
-      <MenuItem item={item} />
+      <MenuItem item={item} header={header}/>
     )
   });
 
