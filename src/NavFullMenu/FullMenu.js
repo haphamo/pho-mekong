@@ -2,7 +2,7 @@ import React from 'react';
 import { Menu, Sidebar } from 'semantic-ui-react';
 
 const SidebarMenuVisible = () => (
-	<Sidebar as={Menu} animation="overlay" icon="labeled" inverted vertical visible width="thin">
+	<Sidebar as={Menu} animation="pushable" icon="labeled" inverted vertical visible width="thin">
 		<Menu.Item as="a">Pho Mekong</Menu.Item>
 		<Menu.Item as="a">Popular Items</Menu.Item>
 		<Menu.Item as="a">Full Menu</Menu.Item>
