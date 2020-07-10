@@ -10,6 +10,7 @@ import data from './data.js';
 function App() {
 	// TOFIX: The content cuts at width: 686px
 	// backgrond color for desc section: #f5f5f5
+	// Header needs to be fixed
 	const allMenuItems = data.map((section) => {
 		return <MenuSection section={section} />;
 	});
@@ -19,12 +20,12 @@ function App() {
 			<NavFullMenu />
 			{/* <Landing className="pusher"/> */}
 
-			<section className="pusher">
+			<section >
 				<Banner />
 				<h1 style={{position: 'absolute', right: '50%', top: '25%'}}>PHO</h1>
-				<section className="description" style={{height: '7em', width: '76%', position: 'relative', right: '-2%', textAlign: 'justify', display: 'flex', alignItems: 'center'}}>Pho is a popular Vietnamese noodle soup. Beef bones are simmered for many hours in combination with herbs and spices that help to bring out the flavour. It is served with traditional rice noodles and your choice of meat, or vegetables. Topped with green and white onions and black pepper.</section>
+				<section className="description" style={{height: '7em', position: 'relative', textAlign: 'justify', display: 'flex', alignItems: 'center', margin: '0 1em 0 12em'}}>Pho is a popular Vietnamese noodle soup. Beef bones are simmered for many hours in combination with herbs and spices that help to bring out the flavour. It is served with traditional rice noodles and your choice of meat, or vegetables. Topped with green and white onions and black pepper.</section>
 			</section>
-			<section className="pusher" style={{width: '80%'}}>
+			<section style={{margin: '0 1em 0 12em'}}>
 				{allMenuItems}
 			</section>
 		</div>
