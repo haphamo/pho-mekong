@@ -22,8 +22,10 @@ function App() {
 
 			<section >
 				<Banner />
-				<h1 style={{position: 'absolute', right: '50%', top: '25%'}}>PHO</h1>
-				<section className="description" style={{height: '7em', position: 'relative', textAlign: 'justify', display: 'flex', alignItems: 'center', margin: '0 1em 0 12em'}}>Pho is a popular Vietnamese noodle soup. Beef bones are simmered for many hours in combination with herbs and spices that help to bring out the flavour. It is served with traditional rice noodles and your choice of meat, or vegetables. Topped with green and white onions and black pepper.</section>
+				<div className="pusher" style={{display: 'flex', justifyContent: 'center'}}>
+					<h1  style={{position: 'absolute', top: '4em', transform: 'translateX(3em)'}}>Pho</h1>
+				</div>
+				<section className="description" style={{ textAlign: 'justify', display: 'flex', alignItems: 'center', margin: '0 1em 0 12em'}}>Pho is a popular Vietnamese noodle soup. Beef bones are simmered for many hours in combination with herbs and spices that help to bring out the flavour. It is served with traditional rice noodles and your choice of meat, or vegetables. Topped with green and white onions and black pepper.</section>
 			</section>
 			<section style={{margin: '0 1em 0 12em'}}>
 				{allMenuItems}
