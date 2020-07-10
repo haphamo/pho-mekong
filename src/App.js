@@ -8,7 +8,8 @@ import Banner from './Banner/Banner.js';
 import data from './data.js';
 
 function App() {
-	// TOFIX: The content cuts at width: 686px,
+	// TOFIX: The content cuts at width: 686px
+	// backgrond color for desc section: #f5f5f5
 	const allMenuItems = data.map((section) => {
 		return <MenuSection section={section} />;
 	});
